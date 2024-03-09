@@ -17,3 +17,10 @@ resource "aws_subnet" "private_subnet" {
   availability_zone = "us-east-1b"
   map_public_ip_on_launch = true
 }
+
+//Internet Gateway
+resource "aws_internet_gateway" "IGW" {
+    vpc_id = aws_vpc.VPC_1.id
+  
+}
+
