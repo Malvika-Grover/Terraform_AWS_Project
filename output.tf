@@ -1,7 +1,7 @@
 
 //Output of Load Balancer DNS
 output "LoadBalancerDNS" {
-    value = aws_alb.myalb.dns_name
+  value = aws_alb.myalb.dns_name
 }
 
 //Public IP for 1st Instance
