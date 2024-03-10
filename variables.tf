@@ -15,3 +15,13 @@ variable "cidr_public_subnet_2" {
   default = "10.0.1.0/24"
   
 }
+
+variable "ami_id" {
+    default = "ami-07d9b9ddc6cd8dd30"
+    description = "AMI ubuntu"  
+}
+
+variable "instance_type_value" {
+  default = "t2.micro"
+  description = "Free tier instance type"
+}
