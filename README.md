@@ -9,9 +9,15 @@ In this project, we will connect multiple resources to make a simple infrastruct
 Resource created -
 
 VPC
+
 Subnets
+
 EC2 Instances
+
 S3 Bucket
+
 Internet Gateway
+
 Route Tables
+
 Application Load Balancer
